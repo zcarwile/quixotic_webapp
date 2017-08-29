@@ -1,2 +1,4 @@
 ./quixotic_webapp/parameters.py
 /secrets
+__pycache__/
+*.pyc
