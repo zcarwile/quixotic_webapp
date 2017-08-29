@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jan  7 12:46:14 2017
+
+@author: zcarwile
+"""
+
+DB_USER = 'root'
+DB_PASSWORD = ''
+DB_HOST = '127.0.0.1'
+DB_NAME = 'quixotic_api'
