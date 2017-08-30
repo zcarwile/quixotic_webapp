@@ -1,0 +1,331 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"start",
+				"startField"
+			],
+			[
+				"ge",
+				"getMonth"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"txt",
+				"txt"
+			],
+			[
+				"entity",
+				"entity_names"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/zcarwile/Documents/quixotic_webapp",
+		"/Users/zcarwile/Documents/quixotic_webapp/quixotic_api",
+		"/Users/zcarwile/Documents/quixotic_webapp/quixotic_webapp/__pycache__"
+	],
+	"file_history":
+	[
+		"/Users/zcarwile/Documents/quixotic_webapp/quixotic_api/views.py",
+		"/Users/zcarwile/Documents/quixotic_webapp/quixotic_webapp.sublime-project",
+		"/Users/zcarwile/Documents/quixotic_webapp/quixotic_webapp/settings.py",
+		"/Users/zcarwile/Documents/quixotic_webapp/quixotic_api/apps.py",
+		"/Users/zcarwile/Documents/quixotic_webapp/quixotic_api/__init__.py",
+		"/Users/zcarwile/Documents/quixotic/anaconda-project.yml",
+		"/Users/zcarwile/Documents/quixotic/quixotic_environment_min.yml",
+		"/Users/zcarwile/secrets.yaml",
+		"/Users/zcarwile/key.txt",
+		"/Users/zcarwile/Desktop/aev5_exception_30090.txt",
+		"/Users/zcarwile/cakey.pem.base64",
+		"/Users/zcarwile/cakey.pem",
+		"/Users/zcarwile/Downloads/pivottable_em.py",
+		"/Users/zcarwile/Downloads/Contact/Mohammed Contact Software/miniCMTR/__init__.py",
+		"/Users/zcarwile/Documents/content/animated_threshold.py",
+		"/Users/zcarwile/Documents/content/sales_engineering_demos/bokeh/examples/app/fourier_animated.py",
+		"/Users/zcarwile/Downloads/ds-usage-spark-streaming.py",
+		"/Users/zcarwile/Downloads/kafka-browser-aggregation-real-time.py",
+		"/Users/zcarwile/Documents/content/ykcondatestpkg/meta.yml",
+		"/Users/zcarwile/Documents/content/yosef/meta.yml",
+		"/Users/zcarwile/Documents/content/yosef_original/meta.yml",
+		"/Users/zcarwile/Downloads/environment (2).yml",
+		"/Applications/MAMP/htdocs/QS-TimeClock/calendar.html",
+		"/Applications/MAMP/htdocs/QS-TimeClock/css/quixotic.css",
+		"/Applications/MAMP/htdocs/djangular/index.html",
+		"/Users/zcarwile/Documents/elle/quixotic_api/serializers.py",
+		"/Users/zcarwile/Documents/elle/quixotic_api/models.py",
+		"/Applications/MAMP/htdocs/QS-TimeClock/js/jquery-weekcalendar-1.2.2/full_demo/demo.js",
+		"/Applications/MAMP/htdocs/QS-TimeClock/js/jquery-weekcalendar-1.2.2/full_demo/weekcalendar_full_demo.html",
+		"/Applications/MAMP/htdocs/QS-TimeClock/js/jquery-weekcalendar-1.2.2/jquery.weekcalendar.js",
+		"/Users/zcarwile/Documents/elle/elle/settings.py",
+		"/Applications/MAMP/htdocs/djangular/hello.js",
+		"/Users/zcarwile/Documents/elle/quixotic_api/views.py",
+		"/Users/zcarwile/Documents/elle/urls.py",
+		"/Users/zcarwile/Documents/restie/restapp/views.py",
+		"/Users/zcarwile/Documents/restie/restapp/serializers.py",
+		"/Users/zcarwile/Documents/restie/restie/settings.py",
+		"/Users/zcarwile/Documents/restie/restie/urls.py",
+		"/Users/zcarwile/Documents/djangular/server/urls.py",
+		"/Users/zcarwile/Documents/djangular/server/retail/views.py",
+		"/Users/zcarwile/Documents/djangular/client/public/index.html",
+		"/Users/zcarwile/Documents/djangular/server/retail/models.py",
+		"/Users/zcarwile/Documents/djangular/server/config/settings.py",
+		"/Users/zcarwile/Documents/djangular/client/public/hello.js",
+		"/Users/zcarwile/Documents/djangular/server/retail/migrations/0001_initial.py",
+		"/Users/zcarwile/Documents/djangular/server/retail/serializers.py",
+		"/Users/zcarwile/Documents/djangular/__init__.py",
+		"/Users/zcarwile/Documents/djangular/server/config/wsgi.py",
+		"/Users/zcarwile/Documents/djangular/server/retail/__init__.py",
+		"/Users/zcarwile/Documents/djangular/server/manage.py",
+		"/Users/zcarwile/Documents/webapp/django_app/polls/urls.py",
+		"/Users/zcarwile/Documents/webapp/django_app/polls/templates/polls/index.html",
+		"/Users/zcarwile/Documents/webapp/django_app/polls/templates/polls/detail.html",
+		"/Users/zcarwile/Documents/webapp/django_app/polls/templates/polls/results.html",
+		"/Users/zcarwile/Documents/webapp/django_app/polls/views.py",
+		"/Users/zcarwile/Documents/webapp/django_app/polls/models.py",
+		"/Users/zcarwile/Documents/webapp/django_app/polls/admin.py",
+		"/Users/zcarwile/Documents/webapp/django_app/polls/apps.py",
+		"/Users/zcarwile/Documents/webapp/django_app/django_app/settings.py",
+		"/Applications/MAMP/htdocs/QS-TimeClock/js/quixotic_calendar.js",
+		"/Applications/MAMP/htdocs/QS-TimeClock/QFE/timeline.php",
+		"/Applications/MAMP/htdocs/QS-TimeClock/php/get_right_rail.php",
+		"/Applications/MAMP/htdocs/QS-TimeClock/js/get_right_rail.js",
+		"/Applications/MAMP/htdocs/QS-TimeClock/admin.html",
+		"/Users/zcarwile/Downloads/longview-1.0/prototype-html/rollover.js",
+		"/Users/zcarwile/Documents/webapp/mean/views/index.ejs",
+		"/Users/zcarwile/Documents/webapp/mean/public/javascripts/angularApp.js",
+		"/Users/zcarwile/Documents/webapp/mean/routes/index.js",
+		"/Users/zcarwile/Documents/webapp/mean/app.js",
+		"/Users/zcarwile/Documents/webapp/mean/models/Posts.js",
+		"/Users/zcarwile/Documents/webapp/app.js",
+		"/Users/zcarwile/Documents/webapp/index.html",
+		"/Users/zcarwile/Documents/content/scikit-learn-bokeh/test.yaml",
+		"/Users/zcarwile/Downloads/meta.yaml",
+		"/Users/zcarwile/Downloads/qetl.sql",
+		"/Users/zcarwile/Documents/customer/areva/freesteam-2.1/SConstruct",
+		"/Users/zcarwile/Downloads/uploader.py",
+		"/Users/zcarwile/Documents/quixotic/sample_rescue_time.p",
+		"/Users/zcarwile/Documents/spacyner/spacyner.py",
+		"/Users/zcarwile/Documents/conda/spacyner/build.sh",
+		"/Users/zcarwile/Documents/conda/spacyner/bld.bat",
+		"/Users/zcarwile/Documents/conda/spacyner/meta.yaml",
+		"/Users/zcarwile/Documents/spacyNER/spacyNER.py",
+		"/Users/zcarwile/Documents/spacyNER/conda/spacyNER/meta.yaml",
+		"/Users/zcarwile/Documents/spacyNER/example2",
+		"/Users/zcarwile/Documents/spacyNER/example1.txt",
+		"/Users/zcarwile/Documents/tagger.py",
+		"/Users/zcarwile/Documents/sample.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"addr",
+			"create_pl",
+			"create_circ",
+			"server",
+			"loadCalEvents",
+			"next",
+			"today",
+			"getEven",
+			"    ",
+			"UserSerializer",
+			"templ",
+			"save",
+			"mik",
+			"\");\n",
+			"right_rail",
+			"autho",
+			"author",
+			"BY",
+			"[\n",
+			"auth",
+			"ld",
+			"python_lib",
+			"targets",
+			"CFLAGS",
+			"failed",
+			"compiler",
+			"gcc",
+			"python_lib",
+			"python_li",
+			"python_lib",
+			"python",
+			"libs"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\t"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "quixotic.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
