@@ -23,7 +23,7 @@ description:
 #
 commands:
   default:
-    unix: python manage.py runserver
+    unix: python manage.py runserver 0.0.0.0:8000
     env_spec: default
 #
 # In the variables section, list any environment variables your code depends on.
@@ -64,6 +64,7 @@ channels: []
 #
 platforms:
 - linux-64
+- osx-64
 #
 # You can define multiple, named environment specs.
 # Each inherits any global packages or channels,
