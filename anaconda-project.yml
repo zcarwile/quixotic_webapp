@@ -23,6 +23,7 @@ description:
 #
 commands:
   default:
+#    unix: which python
     unix: python manage.py runserver 0.0.0.0:8000
     env_spec: default
 #
@@ -76,6 +77,10 @@ env_specs:
     description: Default environment spec for running commands
     packages:
       - python=2.7
+      - requests
+      - urllib3
+      - jinja2
+      - simplejson
       - pip:
         - Django
         - django-cors-headers
@@ -83,5 +88,11 @@ env_specs:
         - MySQL-python
         - mysqlclient
         - pytz
+        - django-rest-swagger
+        - coreapi
+        - itypes
+        - coreschema
+        - uritemplate
+        - openapi_codec
     channels: []
     platforms: []
