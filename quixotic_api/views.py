@@ -2,7 +2,6 @@ from rest_framework import viewsets
 from quixotic_api.models import Event, Timeblock, Project, User
 from quixotic_api.serializers import EventSerializer, TimeblockSerializer, ProjectSerializer, UserSerializer
 
-
 class EventViewSet(viewsets.ModelViewSet):
     """ ViewSet for viewing and editing Event objects """
     queryset = Event.objects.all()
@@ -22,3 +21,4 @@ class UserViewSet(viewsets.ModelViewSet):
     """ ViewSet for viewing and editing User objects """
     queryset = User.objects.all()
     serializer_class = UserSerializer
+
