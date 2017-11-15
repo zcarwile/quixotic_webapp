@@ -10,7 +10,7 @@ class EventSerializer(serializers.ModelSerializer):
 class TimeblockSerializer(serializers.ModelSerializer):
     class Meta:
         model = Timeblock
-        fields = ("start","end","title","user")
+        fields = ("start","end","title","user","project")
 
 class ProjectSerializer(serializers.ModelSerializer):
     class Meta:
