@@ -2,10 +2,27 @@ from rest_framework import viewsets
 from quixotic_api.models import Event, Timeblock, Project, User
 from quixotic_api.serializers import EventSerializer, TimeblockSerializer, ProjectSerializer, UserSerializer
 
+from django.utils import timezone
+import datetime
+
 class EventViewSet(viewsets.ModelViewSet):
     """ ViewSet for viewing and editing Event objects """
-    queryset = Event.objects.all()
+    base_name = "events"
     serializer_class = EventSerializer
+    def get_queryset(self):
+
+        t = self.request.query_params.get('tags', None)
+        s = self.request.query_params.get('selected_date', None)
+        print(self.request.query_params)
+
+        if s is None:
+	    return Event.objects.filter(tags="Impossible")
+
+        if t is not None:
+            queryset = Event.objects.filter(tags__exact=t, start__gt=datetime.datetime.strptime(s, "%Y-%m-%dT%H:%M:%S"))
+        else:
+            queryset = Event.objects.filter(start__gt=datetime.datetime.strptime(s, "%Y-%m-%dT%H:%M:%S"))
+        return queryset
 
 class TimeblockViewSet(viewsets.ModelViewSet):
     """ ViewSet for viewing and editing Timeblock objects """

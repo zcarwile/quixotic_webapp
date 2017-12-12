@@ -5,7 +5,7 @@ from quixotic_api.models import Event, Timeblock, Project, User
 class EventSerializer(serializers.ModelSerializer):
     class Meta:
         model = Event
-        fields = ("start", "end", "title","user")
+        fields = ("start", "end", "title","user","tags")
 
 class TimeblockSerializer(serializers.ModelSerializer):
     class Meta:
