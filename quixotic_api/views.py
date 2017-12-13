@@ -15,13 +15,16 @@ class EventViewSet(viewsets.ModelViewSet):
         s = self.request.query_params.get('selected_date', None)
         print(self.request.query_params)
 
+        # must supply a date
         if s is None:
 	    return Event.objects.filter(tags="Impossible")
 
+        s_dt = datetime.datetime.strptime(s, "%Y-%m-%dT%H:%M:%S")
+        s_dt_plus_1 = s_dt + datetime.timedelta(days=1)
         if t is not None:
-            queryset = Event.objects.filter(tags__exact=t, start__gt=datetime.datetime.strptime(s, "%Y-%m-%dT%H:%M:%S"))
+            queryset = Event.objects.filter(tags__exact=t, start__gt=s_dt, start__lt=s_dt_plus_1)
         else:
-            queryset = Event.objects.filter(start__gt=datetime.datetime.strptime(s, "%Y-%m-%dT%H:%M:%S"))
+            queryset = Event.objects.filter(start__gt=s_dt, start__lt=s_dt_plus_1)
         return queryset
 
 class TimeblockViewSet(viewsets.ModelViewSet):
